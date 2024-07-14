@@ -6,6 +6,8 @@
 */
 
 :root.theme-light {
+    --font-family-main: Inter;
+    --font-family-accent: "Press Start 2P";
     --background-page: #FFFFFF;
     --background-color: #D3D3D3;
     --background-header: #FFFFFF;
@@ -21,6 +23,8 @@
 }
 
 :root.theme-dark {
+    --font-family-main: Inter;
+    --font-family-accent: "Press Start 2P";
     --background-page: #000000;
     --background-color: #000000;
     --background-header: #000000;
@@ -37,6 +41,8 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
+        --font-family-main: Inter;
+        --font-family-accent: "Press Start 2P";
         --background-page: #000000;
         --background-color: #000000;
         --background-header: #000000;
