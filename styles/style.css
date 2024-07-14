@@ -149,7 +149,6 @@
 }
 
 .image_lable {
-  font-variation-settings: var(--font-weight-text);
   font-family: var(--font-family-accent);
   font-size: 14px;
   opacity: 0.5;
@@ -185,6 +184,10 @@
   font-size: 18px;
   padding: 23px 25px;
   gap: 26px;
+}
+
+.card__text {
+  font-variation-settings: var(--font-weight-text);
 }
 
 .card__like-button-container {
