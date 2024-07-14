@@ -15,7 +15,8 @@
 */
 
 .page {
-  font-variation-settings: var(--font-weight-text);
+  font-family: var(--font-family-main), monospace;
+  font-variation-settings: "wght" var(--font-weight-text);
   min-inline-size: 320px;
   min-block-size: 100dvb;
   background-image: var(--background-image);
@@ -30,7 +31,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-family: var(--font-family-accent);
+  font-family: var(--font-family-accent), monospace;
   margin: 102px 0;
   padding: 136px 0 25px;
   background: var(--background-header);
@@ -136,7 +137,7 @@
 }
 
 .section__card-title {
-  font-variation-settings: var(--font-weight-title);
+  font-variation-settings: "wght" var(--font-weight-title);
   padding: 4px 10px;
   font-size: 18px;
 }
@@ -187,7 +188,7 @@
 }
 
 .card__text {
-  font-variation-settings: var(--font-weight-text);
+  font-variation-settings: "wght" var(--font-weight-text);
 }
 
 .card__like-button-container {
