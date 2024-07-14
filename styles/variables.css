@@ -1,1 +1,58 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --font-family-main: Inter;
+    --font-family-accent: "Press Start 2P";
+    --background-page: #FFFFFF;
+    --background-color: #D3D3D3;
+    --background-header: #FFFFFF;
+    --background-image: 
+        repeating-linear-gradient(to right, #D3D3D3 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(to bottom, #D3D3D3 0 2px, transparent 2px 4px),
+        linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+    --font-weight-title: "wght" 700;
+    --font-weight-text: "wght" 400;
+    --color-text: #000000;
+    --border-color: #000000;
+    --color-text-botton-like: var(--background-page);
+    --color-heart: #FF0000;
+}
+
+@media (Width <= 375px) {
+    .header {
+      padding: 120px 0 25px;
+    }
+  
+    .theme-menu__list {
+      margin: 0 41%;
+    }
+
+    .card:nth-child(7) .card__text {
+      max-width: 317px;
+    }
+
+    .image-label {
+      right: 10px;
+      top: 24px;
+    }
+
+    .save-button {
+      flex-direction: column;
+    }
+
+    .dialog {
+      padding: 32px 38px;
+    }
+
+    .dialog__container {
+      gap: 28px;
+    }
+
+    .dialog__text {
+      width: 80%;
+    }
+
+    .floppy-image {
+      width: 28px;
+      height: 28px;
+    }
+}
