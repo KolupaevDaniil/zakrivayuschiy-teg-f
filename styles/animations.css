@@ -23,12 +23,12 @@
 }
 
 @keyframes heart-scale-animation {
-    from{
+    from {
         scale: 1;
     }
     to {
         scale: 1.5;
-    }    
+    }   
 }
 
 @keyframes heart-sparks-animation {

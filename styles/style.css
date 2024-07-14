@@ -15,13 +15,13 @@
 */
 
 .page {
+  font-variation-settings: var(--font-weight-text);
   min-inline-size: 320px;
   min-block-size: 100dvb;
   background-image: var(--background-image);
   color: var(--color-text);
   background-size: cover;
   background-attachment: fixed;
-  font-variation-settings: var(--font-weight-text);
   margin: 0 auto;
 }
 
@@ -149,8 +149,8 @@
 }
 
 .image_lable {
+  font-variation-settings: var(--font-weight-text);
   font-family: var(--font-family-accent);
-  font-variation-settings: var(--font-family-main);
   font-size: 14px;
   opacity: 0.5;
   mix-blend-mode: hard-light;
@@ -158,6 +158,14 @@
   position: absolute;
   right: 25px;
   top: 27px;
+}
+
+@supports (text-stroke: 1px var(--background-page)) or (-webkit-text-stroke: 1px var(--background-page)) {
+  .image_lable {
+    text-shadow: none;
+    -webkit-text-stroke: 1px var(--background-page);
+    text-stroke: 1px var(--background-page);
+  }
 }
 
 .image {
