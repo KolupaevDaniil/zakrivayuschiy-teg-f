@@ -25,10 +25,10 @@
 @keyframes heart-scale-animation {
     from {
         scale: 1;
-    }
-    to {
+      }
+      to {
         scale: 1.5;
-    }   
+      }
 }
 
 @keyframes heart-sparks-animation {
