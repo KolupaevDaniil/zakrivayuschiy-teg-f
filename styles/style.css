@@ -372,8 +372,7 @@
   mix-blend-mode: normal;
 }
 
-@media (width <= 376px)
-{
+@media (width <= 376px) {
   .header {
     padding: 120px 0 25px;
   }
